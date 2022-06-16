@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="online-StopwatchTimer.com, StopwatchTimer.com, stopwatch, online stopwatch, online countdown, free online stopwatch, free flash stopwatch, large stopwatch, stopwatch timer, online countdown timer, free countdown timer , timer online, stopwatch and timer online, stopwatch and timer, cronometro online, temporizador online" />
+    <link rel="shortcut icon" href="../ico/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+    <title>Online-StopwatchTimer</title>
+</head>
+<body>
+    <header id="header">
+        <a href="../index.html" class="language">Idioma: <br><i><?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="" xmlns:xlink="" width="25" height="35" viewBox="0 0 7410 3900">
+            <rect width="7410" height="3900" fill="#b22234"/>
+            <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#fff" stroke-width="300"/>
+            <rect width="2964" height="2100" fill="#3c3b6e"/>
+            <g fill="#fff">
+            <g id="s18">
+            <g id="s9">
+            <g id="s5">
+            <g id="s4">
+            <path id="s" d="M247,90 317.534230,307.082039 132.873218,172.917961H361.126782L176.465770,307.082039z"/>
+            <use xlink:href="#s" y="420"/>
+            <use xlink:href="#s" y="840"/>
+            <use xlink:href="#s" y="1260"/>
+            </g>
+            <use xlink:href="#s" y="1680"/>
+            </g>
+            <use xlink:href="#s4" x="247" y="210"/>
+            </g>
+            <use xlink:href="#s9" x="494"/>
+            </g>
+            <use xlink:href="#s18" x="988"/>
+            <use xlink:href="#s9" x="1976"/>
+            <use xlink:href="#s5" x="2470"/>
+            </g>
+            </svg>
+            </i> </a>
+        <div>
+            <a href="./index.html"><h1 id="title">Cronômetro Online</h1></a>
+        </div>
+    </header>
+    <div class="menu">
+        <h1>
+            <a href="./index.html" class="a1">Cronômetro</a>
+            <a href="../temporizador/index.html" class="a2">Temporizador</a>
+        </h1>
+    </div>
+    <div class="clock">
+        <h1 id="counter">0:00:00.00</h1>
+        <button onclick="startstop()" class="startstop" id="btn-startstop">INICIAR</button>
+        <!-- <button onclick="stop()" class="btn-stop" id="btn">Stop</button> -->
+        <button onclick="reset()" class="btn-reset" id="btn">RESETAR</button>
+    </div>
+    <div id="instructions">
+        <div id="zero">
+            <hr><h3>Como você pode nos ajudar?</h3>
+            <p>
+                Desative seu AdBlock ou clique em um de nossos anúncios. Obrigado por visitar nossa página.   
+            </p>
+        </div>
+        <div id="one">
+            <hr><h3>O que é o StopwatchTimer?</h3>
+            <p>StopwatchTimer é um aplicativo com a funcionalidade de
+                cronômetro e temporizador, projetado para ajudar seus usuários
+                nas mais diversas tarefas que requerem
+                contagem o tempo.</p><hr>
+        </div>
+        <div id="two">
+            <h3>Como funciona o StopwatchTimer?</h3>
+            <p>O aplicativo StopwatchTimer possui recursos muito intuitivos,
+                visando uma melhor experiência para seus usuários.</p>
+            <p id="s">INICIAR - inicia a contagem.</p>
+            <p id="p">PAUSAR - pausa a contagem.</p>
+            <p id="c">CONTINUAR - Retoma a contagem a partir do ponto de pausa.</p>
+            <p id="r">RESETAR - Reinicia a contagem.</pid><hr>
+        </div>
+        <div id="three">
+            <h3>Curiosidade</h3>
+            <p>
+                Cronômetro ou cronógrafo é o nome dado a um tipo específico de relógio usado para medir pequenos intervalos de tempo, geralmente até milissegundos. O termo, autorizações para designar qualquer tipo de relógio, uma referência comum a dispositivos de mais precisão.
+                O primeiro aparelho foi construído no século 18 como um equipamento de auxílio à navegação. Seu uso permitiria determinar rotas marítimas mais seguras e precisas. Uma vez aceitos como instrumentos marítimos, foram introduzidas melhorias nos cronômetros, de modo que os modelos gradualmente se tornaram muito compactos e precisos, semelhantes aos modernos cronômetros de competição.
+                Até o final do século 18, o instrumento usado para determinar as rotas marítimas era o quadrante, que fornecia a localização de um navio com base na posição relativa das estrelas. Para isso, é necessário que o processo seja percorrido em intervalos de horas; outra alternativa era usar tabelas que indicavam a localização do barco de acordo com a hora do dia.
+                Os relógios de pêndulo da época funcionavam satisfatoriamente apenas em terra firme. No mar, as mudanças bruscas de temperatura combinadas com o balanço causado pelas ondas afetaram muito a regularidade dos movimentos do pêndulo, causando erros consideráveis ​​na medição do tempo. Erros dificultaram o estabelecimento da rota, o que muitas vezes levou a acidentes graves, como o de 1714, nas ilhas Scilly, perto da Inglaterra, em que morreram duas mil pessoas. Para evitar mais tragédias, uma alternativa natural era desenvolver um relógio que funcionasse no costado de um navio e cuja posição pudesse ser calculada por meio de tabelas especiais.
+                John Harrison, um relojoeiro de Yorkshire, conhecido pela precisão do aparelho que construiu e pelas melhorias feitas nos mecanismos de pêndulo tradicionais, desenvolveu seu primeiro modelo marinho em 1735. Seus modelos subsequentes, H2, H3 e H4, foram decisivos no desenvolvimento de o cronômetro que conhecemos, mesmo ganhando um prêmio de £ 20.000 do governo britânico. O H4, por exemplo, trouxe muitas das ideias que ainda hoje são utilizadas na construção de relógios. Muito menor e mais preciso que seus antecessores, tinha o tamanho de um despertador comum, e possuía um sistema de molas denominado "remontoire", que permitia compensar as variações de tensão introduzidas pela mola da corda, outra muito aparelho reproduzido, desta vez em relógios de automóveis. Apesar da alta probabilidade desses cronômetros, até o século XIX o uso desses aparelhos permanecia restrito à navegação, pois seu alto custo de construção não justificava seu uso para outros fins.<br>
+                Bibliografia:
+                 Breve História das Invenções. São Paulo: Abril SA Cultural e Industrial, 1976.
+            </p><hr>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>| <a href="./index.html">Privacidade</a> || <a href="./index.html">Termos de uso e condições</a> |</p>
+        <p>© online-StopwatchTimer.com 2021 Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
