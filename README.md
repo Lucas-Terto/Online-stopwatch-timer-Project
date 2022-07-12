@@ -1,2 +1,3 @@
 # onlinestopwatchtimer
-Web application with stopwatch and timer features, developed in vanilla JavaScript.
+Aplicação web com funcionalidades de cronômetro e temporizador, desenvolvida em Vanilla JavaScript, CSS e HTML.
+Contém troca de idiomas inglês/português e funções de START, STOP, PAUSE e CONTINUE.
